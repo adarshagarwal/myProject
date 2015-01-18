@@ -1,0 +1,75 @@
+
+<form id="1628898589">
+<property name="subject" value=""/>
+<property name="name" value="EditClient1-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="3" name="invoice_client" type="InputText" id="1057780012">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;client (invoice)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_invoice/client"/>
+<property name="outputBinding" value="out_invoice/client"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="client_surname" type="InputText" id="1544481548">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;surname (client)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_client/surname"/>
+<property name="outputBinding" value="out_client/surname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="invoice_total" type="InputTextDouble" id="857492872">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;total (invoice)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_invoice/total"/>
+<property name="outputBinding" value="out_invoice/total"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="5" name="invoice_number" type="InputText" id="442236734">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;number (invoice)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_invoice/number"/>
+<property name="outputBinding" value="out_invoice/number"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="invoice_lines" type="MultipleSubform" id="1539759168">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lines (invoice)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_invoice/lines"/>
+<property name="outputBinding" value="out_invoice/lines"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="7" name="name" type="InputText" id="649197319">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_name (name)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_name"/>
+<property name="outputBinding" value="out_name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="age" type="InputTextInteger" id="390371389">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_age (age)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_age"/>
+<property name="outputBinding" value="out_age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="client_name" type="InputText" id="807933527">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (client)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_client/name"/>
+<property name="outputBinding" value="out_client/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="in_age" name="#9BCAFA" type="basicType" outId="out_age" value="java.lang.Integer" id="age"/>
+<dataHolder inputId="in_client" name="#E9E371" type="className" outId="out_client" value="org.jbpm.formModeler.core.test.Client" id="client"/>
+<dataHolder inputId="in_invoice" name="#BBBBBB" type="dataModelerEntry" outId="out_invoice" value="org.kie.test.Invoice" id="invoice"/>
+<dataHolder inputId="in_name" name="#FF54A7" type="basicType" outId="out_name" value="java.lang.String" id="name"/>
+</form>
