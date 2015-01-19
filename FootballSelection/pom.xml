@@ -7,7 +7,7 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>FootballSelection</name>
-  <description>A JBPM workflow depicting selection of a trial candidate. </description>
+  <description>A JBPM workflow depicting selection of a trial candidate.</description>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
