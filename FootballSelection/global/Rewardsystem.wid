@@ -1,0 +1,21 @@
+import org.drools.core.process.core.datatype.impl.type.StringDataType;
+
+[
+
+  [
+    "name" : "Rewardsystem",
+    "description" : "Notifies the Reward System",
+    "parameters" : [
+    	"userid"     : new StringDataType(),
+        "rewardtype" : new StringDataType(),
+        "amount" : new StringDataType() 
+    ],
+    "displayName" : "Rewardsystem",
+    "icon" : "reward.png",
+    "category" : "Rewards",
+    "dependencies" : [ 
+    ]
+  ]
+
+]
+
