@@ -2,7 +2,8 @@
 <form id="1557029329">
 <property name="subject" value=""/>
 <property name="name" value="selfDetails.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="left"/>
 <property name="status" value="0"/>
 <field position="0" name="1659573695" type="InputText" id="1659573695">
 <property name="fieldRequired" value="false"/>
