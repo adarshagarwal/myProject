@@ -168,7 +168,7 @@ quot;"/>
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
 <property name="formula" value=""/>
-<property name="rangeFormula" value="{5,4,3,2,1}"/>
+<property name="rangeFormula" value="{5,5.Excellent;4,4.Good;3,3.Moderate;2,2.Bad;1,1.Unacceptable;}"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="defaultValueFormula" value=""/>
