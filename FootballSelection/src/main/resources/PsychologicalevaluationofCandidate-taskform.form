@@ -1,0 +1,34 @@
+
+<form id="1709673349">
+<property name="subject" value=""/>
+<property name="name" value="PsychologicalevaluationofCandidate-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="age" type="InputTextInteger" id="1125004334">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_age (age)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_age"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="name" type="InputText" id="966344123">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;in_name (name)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_name"/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="pScore" type="InputTextInteger" id="682130285">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pScore (pScore)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="pScore"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="in_age" name="#FF54A7" type="basicType" outId="" value="java.lang.Integer" id="age"/>
+<dataHolder inputId="in_name" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="name"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="pScore" value="java.lang.Integer" id="pScore"/>
+</form>
