@@ -4,4 +4,46 @@
 <property name="name" value="selfDetails.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="1659573695" type="InputText" id="1659573695">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputText0quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="1981355898" type="InputTextInteger" id="1981355898">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger1quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="2072153062" type="InputTextInteger" id="2072153062">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger2quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="1964923366" type="InputTextInteger" id="1964923366">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;InputTextInteger3quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="453265357" type="InputTextEmail" id="453265357">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;InputTextEmail4quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 </form>
