@@ -26,8 +26,18 @@
 <field position="4" name="fitnessScore" type="InputTextInteger" id="425044965">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;fitnessScore (fitnessScore)quot;"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fitness Score:quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value="{5,5.Excellent;4,4.Good;3,3.Moderate,2,2.Bad;1,1.No Selection} "/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="fitnessScore"/>
 <property name="fieldClass" value="java.lang.Integer"/>
@@ -79,14 +89,78 @@ quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;dequot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;enquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;esquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;frquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;jaquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;ptquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-quot;quot;zhquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS SCORE:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;dequot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;enquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;esquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;frquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;FITNESS CONDITION:&lt;/span&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;5-Match Fit.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;4-Requires practice games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;3-Requires U-21 games.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;2-Unfit, requires a month of training.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;1-Unfit for selection.&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
